@@ -10,7 +10,12 @@
   "dependencies": {
     "gatsby": "^1.9.102",
     "gatsby-cli": "^1.1.20",
-    "gatsby-link": "^1.6.22"
+    "gatsby-link": "^1.6.22",
+    "gatsby-plugin-manifest": "^1.0.8",
+    "gatsby-plugin-netlify": "^1.0.7",
+    "gatsby-plugin-offline": "^1.0.10",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.13"
   },
   "version": "1.0.0",
   "repository": "git@github.com:juz501/gatsby-netlify-test.git",
