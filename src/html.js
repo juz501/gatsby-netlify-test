@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-let inlinedStyles = '';
+let inlinedStyles = "";
 if (process.env.NODE_ENV === 'production') {
   try {
-    inlinedStyles = require('!raw-loader!../public/styles.css');
+    inlinedStyles = require("!raw-loader!../public/styles.css");
   } catch (e) {
     console.log(e);
   }
@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'production') {
 export default class HTML extends React.Component {
   render() {
     let css;
-    if (process.env.NODE_ENV === 'production') {
+    if (process.env.NODE_ENV === "production") {
       css = (
         <style
           id="gatsby-inlined-css"
