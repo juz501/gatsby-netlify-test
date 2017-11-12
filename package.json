@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-netlify-test",
+  "description": "Testing Gatsby Netlify",
+  "license": "GPL-3.0",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.102",
+    "gatsby-cli": "^1.1.20",
+    "gatsby-link": "^1.6.22"
+  }
+}
