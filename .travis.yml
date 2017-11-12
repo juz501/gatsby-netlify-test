@@ -13,6 +13,5 @@ before_install:
   - export PATH=$HOME/.yarn/bin:$PATH
 
 install:
-  - yarn run bootstrap
-  - gatsby build
+  - yarn run build
 
